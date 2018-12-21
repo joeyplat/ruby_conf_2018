@@ -54,6 +54,6 @@ Specific version: `gem "ruby_gem", "1.0.1"`
 
 ## Example
 
-[santa_claus gem](https://rubygems.org/gems/santa_claus)
-
+* [santa_claus gem](https://rubygems.org/gems/santa_claus)
+* [santa_claus gem repo](https://github.com/joeyplat/santa_claus)
 
