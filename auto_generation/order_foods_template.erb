@@ -1,0 +1,24 @@
+module OrderFoodsV2
+<% @foods.keys.each do |food| %>
+  class <%= food.capitalize %>
+    attr_reader :toppings
+
+    def initialize
+      @toppings ||= []
+    end
+
+    def add(topping)
+      toppings.push(topping)
+    end
+  end
+<% end %>
+<% @foods.each do |food, toppings| %>
+  def self.order<%= food.capitalize %>
+    food = <%= food.capitalize %>.new()
+  <% toppings.each do |t| %>
+    food.add("<%= t %>")<% end %>
+    return food
+  end
+  <% end %>
+end
+

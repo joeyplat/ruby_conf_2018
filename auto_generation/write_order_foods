@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+require 'erb'
+
+@foods = YAML.load_file(File.join(__dir__, 'foods.yaml'))
+
+template_source = File.read(File.join(__dir__,'./order_foods_template.erb'))
+
+template = ERB.new(template_source)
+
+File.open('order_foods_v2.rb', 'w') do |f|
+  f.write template.result(binding)
+end
