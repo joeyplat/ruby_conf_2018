@@ -3,7 +3,7 @@
 - [Video](http://confreaks.tv/videos/rubyconf2018-the-anatomy-of-a-ruby-gem-going-from-zero-to-sharing-code)
 - [Slides](https://speakerdeck.com/t27duck/the-anatomy-of-a-ruby-gem-going-from-zero-to-sharing-code)
 
-## Help Links
+## Helpful Links
 - [Gem Structure](https://guides.rubygems.org/what-is-a-gem/)
 - [Make a Gem](https://guides.rubygems.org/make-your-own-gem/)
 
@@ -54,6 +54,6 @@ Specific version: `gem "ruby_gem", "1.0.1"`
 
 ## Example
 
-(santa_claus gem)[https://rubygems.org/gems/santa_claus]
+[santa_claus gem](https://rubygems.org/gems/santa_claus)
 
 
