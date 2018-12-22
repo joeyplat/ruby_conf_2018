@@ -10,7 +10,7 @@ It's not:
 * No blockchain
 * No machine learning
 * No compiler magic
-* No meta-programming
+* Meta-programming (but it kinda is...not sure I agree with the RubyConf speaker.)
 
 When to auto-generate?
 * If you find yourself copying and pasting code.
