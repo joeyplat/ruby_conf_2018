@@ -1,7 +1,7 @@
 # Make Ruby Write Code for You
 
 - [video](http://confreaks.tv/videos/rubyconf2018-make-ruby-write-your-code-for-you)
-- [magic-modules](github.com/googlecloudplatform/magic-modules)
+- [magic-modules](https://github.com/googlecloudplatform/magic-modules)
 
 
 "Auto-geneartion": Writing code that writes code for you.
